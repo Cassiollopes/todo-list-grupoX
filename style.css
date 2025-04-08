@@ -6,30 +6,56 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-}
-
-h1 {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
     color: #e1eaed;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-input, button {
-    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  input, button {
     padding: 10px;
     font-size: 16px;
     border-radius: 7px;
     transition: background-color 0.5s;
     border: none;
-}
-
-button:hover{
+  }
+  
+  input {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  button:hover {
     background-color: #94c9db;
-    transition: 0.5s;
-}
-
-#taskList {
+  }
+  
+  #listaTarefas {
     list-style: none;
     padding: 0;
     margin-top: 20px;
     color: #e1eaed;
-}
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #132226;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
