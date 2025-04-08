@@ -1,0 +1,35 @@
+body {
+    background-color: #070e10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #e1eaed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    transition: background-color 0.5s;
+    border: none;
+}
+
+button:hover{
+    background-color: #94c9db;
+    transition: 0.5s;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    color: #e1eaed;
+}
