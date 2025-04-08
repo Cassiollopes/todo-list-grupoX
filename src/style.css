@@ -43,7 +43,7 @@ body {
     background-color: #94c9db;
   }
   
-  #listaTarefas {
+  #taskList {
     list-style: none;
     padding: 0;
     margin-top: 20px;
